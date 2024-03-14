@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@font-face { font-family: Nexa-Heavy; src: url('Nexa-Heavy.ttf'); } 
+body{ 
+    background: #FFFFFF; 
+    color: #070707; 
+    font-family: "Open Sans", sans-serif; 
+    font-size: 18px; 
+    font-weight: 400; 
+    line-height: 25px; 
+    letter-spacing: 0.01em; 
+} 
+header {
+    text-align: center;
+}
+
+nav.container {
+    margin-top: 23.5px;
+    border-bottom: solid 1px #828282;
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin-bottom: -67.5px;
+}
+
+.container {
+    width: 940px;
+    margin: 98px auto;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    margin-left: -29.5px;
+}
+
+nav ul li {
+    list-style: none;
+    font-weight: 400;
+    size: 18px;
+    padding-bottom: 9px;
+}
+
+nav ul li+li {
+    padding-left: 41.5px;
+}
+nav ul li a{ 
+    color: #828282; 
+    text-decoration: none; 
+} 
+nav ul li a:hover{ 
+    color: #070707; 
+} 
+h1{ 
+    font-weight: 700; 
+    font-size: 48px; 
+    line-height: 65.37px; 
+    letter-spacing: -0.01em; 
+} 
+.hero_img{
+    margin-top: -5px;
+    margin-left: 2.5px;
+    width: 944px;
+    height: 390px;
+}
+h2{
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 46.3px;
+    text-align: center; 
+} 
+p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 15.51px;
+    text-align: center;
+    letter-spacing: 0.0001em;
+}
+.section_gray{ 
+    background-color: #F6F6F6; 
+    padding-top: 1px;
+    padding-bottom: 5px;
+} 
+.info_about{
+    margin: auto;
+    width: 490px;
+    margin-top: -1px;
+}
+.info_about div + div{
+    margin-top: 58px;
+}
+.info_about div p + p{
+    margin-top: -8px;
+}
+.skills_section{ 
+    margin-left: 10px;
+    display: flex; 
+    justify-content: space-between; 
+} 
+.skills_section div{ 
+    margin: auto; 
+    margin-top: 65px;
+} 
+.skills_section div p{
+    font-family: Nexa-Heavy;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17.33px;
+    text-align: center;
+    margin-bottom: 55px;
+}
+div.short_skill_name p{
+    margin-bottom: 75px;
+}
+.skills_section div + div{ 
+    margin-left: 100.25px; 
+}
+.skills_section .img_app{
+    width: 90px;
+    height: 90px;
+}
+.skills_section div img{
+    margin-left: 30px;
+}
+.skills_section .figma_app{
+    margin-left: 50px;
+    width: 58.25px;
+    height: 88px;
+}
+
+.star_rate{
+    margin-left: -35px; 
+}
+
+.star_rate img + img{
+    margin-left: 9.02px;
+}
+div.skills_section{
+    margin-bottom: -16px;
+}
+section#portfolio{
+    padding-top: 23px;
+
+}
+section#portfolio h2{
+    margin-bottom: 62px;
+}
+section .item_fashion img{
+    width: 936.24px;
+    height: 510px;
+    margin-bottom: 10px;
+}
+section .item_reebok{
+    padding-bottom: 35px;
+
+}
+section .item_braun img{
+    margin-bottom: -3px;
+}
+.portfolio_item a{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24.51px;
+    color: #070707;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+section#portfolio a:hover{
+    color: #212020b8;
+}
+.portfolio_item + .portfolio_item{
+    margin-top: 100px;
+}
+footer h2{
+    margin-top: 10px;
+    margin-bottom: 12px;
+    margin-left: 1px;
+}
+footer p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24.51px;
+    
+    margin: auto;
+    align-items: center;
+
+    width: 300px;
+    margin-bottom: 76px;
+}
+footer button{
+    margin-left: 40%;
+    align-items: center;
+    width: 180.5px;
+    height: 42px;
+    background-color: #070707;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24.51px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 25px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+footer button:hover{
+    background-color: #070707b1;
+}
+.social_icon{
+    margin-left: 32%;
+    margin-bottom: 40px;
+}
+section .social_icon a img{
+    width: 40.11px;
+    height: 50px;
+}
+.social_icon a + a{
+    margin-left: 55px;
+}
+.like_links{
+    width: 200px;
+    font-size: 14px;
+    line-height: 19.07px;
+    color: #828282;
+}
+.like_links a{
+    text-decoration: none;
+    color: #828282;
+    cursor: pointer;
+}
+.like_links a:hover{
+    text-decoration: underline;
+}
